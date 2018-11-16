@@ -31,5 +31,5 @@ def now_serving(katz_deli)
     #remove currently serving from line
     
     katz_deli.empty? ? puts "There is nobody waiting to be served" : puts "Currently Serving" + katz_deli.shift
-  end
+  # end
 end 
