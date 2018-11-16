@@ -23,12 +23,12 @@ def take_a_number(katz_deli, name)
 end
  #checks to see line (empty or not) then declare who is being currently served
 def now_serving(katz_deli)
-  if katz_deli.empty?
-    puts "There is nobody waiting to be served!"
-  else
-    puts "Currently serving #{katz_deli[0]}."
-    katz_deli.shift
-    #remove currently serving from line
+  # if katz_deli.empty?
+  #   puts "There is nobody waiting to be served!"
+  # else
+  #   puts "Currently serving #{katz_deli[0]}."
+  #   katz_deli.shift
+  #   #remove currently serving from line
     
     katz_deli.empty? ? puts "There is nobody waiting to be served" : puts "Currently Serving" + katz_deli.shift
   # end
