@@ -1,4 +1,3 @@
-require 'pry'
 # Write your code here.
 katz_deli = []
  def line(katz_deli)
@@ -13,7 +12,6 @@ katz_deli = []
       current_line.push("#{index}. #{name}")
       #add to end of current_line
     end
-    binding.pry
     puts "The line is currently: #{current_line.join(" ")}"
     #declares people in line and length
   end
