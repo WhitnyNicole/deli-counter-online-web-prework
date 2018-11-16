@@ -1,5 +1,5 @@
+require 'pry'
 # Write your code here.
-
 katz_deli = []
  def line(katz_deli)
   current_line = []
